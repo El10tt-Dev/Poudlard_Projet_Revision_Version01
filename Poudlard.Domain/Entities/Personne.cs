@@ -1,6 +1,6 @@
 ﻿namespace Poudlard.Domain.Entities;
 
-public class Personne
+public abstract class Personne
 {
     public Guid Id { get; set; }
     public string Nom { get; set; }

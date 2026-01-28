@@ -6,4 +6,5 @@ public class Sorcier : Personne
 {
     public EssenceBaguette Baguette { get; set; }
     public bool FideleVoldemort { get; set; }
+    public bool PeutEntrerPoudlard { get; set; } = true;
 }
