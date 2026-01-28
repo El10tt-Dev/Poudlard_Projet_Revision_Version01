@@ -10,6 +10,7 @@ internal class SorcierConfiguration : IEntityTypeConfiguration<Sorcier>
     public void Configure(EntityTypeBuilder<Sorcier> builder)
     {
         builder.Property(s => s.Baguette)
+            .HasConversion<string>()
             .IsRequired()
             .HasDefaultValue(EssenceBaguette.NON_RENSEIGNEE);
         builder.Property(s => s.FideleVoldemort)

@@ -13,6 +13,7 @@ internal class EleveConfiguration : IEntityTypeConfiguration<Eleve>
             .IsRequired()
             .HasDefaultValue(AnneeEtude.PASCOMMENCE);
         builder.Property(e => e.Maison)
+            .HasConversion<string>()
             .IsRequired()
             .HasDefaultValue(MaisonAttribuee.None);
     }

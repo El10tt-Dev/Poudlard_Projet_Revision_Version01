@@ -15,6 +15,7 @@ internal class ProfesseurConfiguration : IEntityTypeConfiguration<Professeur>
         builder.Property(prof => prof.ChefMaison)
             .HasDefaultValue(false);
         builder.Property(prof => prof.Maison)
+            .HasConversion<string>()
             .HasDefaultValue(MaisonAttribuee.None);
     }
 }

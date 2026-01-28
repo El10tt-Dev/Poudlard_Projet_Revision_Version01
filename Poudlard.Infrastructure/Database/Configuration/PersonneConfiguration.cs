@@ -20,5 +20,10 @@ internal class PersonneConfiguration : IEntityTypeConfiguration<Personne>
 
         builder.Property(pe => pe.DateNaissance)
             .IsRequired();
+
+        builder.HasDiscriminator<string>("Type_personne")
+           .HasValue<Eleve>("Eleve")
+           .HasValue<Professeur>("Prof")
+           .HasValue<Moldu>("Moldu");
     }
 }
