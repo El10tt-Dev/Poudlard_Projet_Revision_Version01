@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Poudlard.API/Poudlard.API.csproj" />
+  <Project Path="Poudlard.Domain/Poudlard.Domain.csproj" />
+  <Project Path="Poudlard.Infrastructure/Poudlard.Infrastructure.csproj" />
+</Solution>
