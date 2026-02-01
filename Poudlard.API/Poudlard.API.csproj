@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Poudlard.Core\Poudlard.Core.csproj" />
     <ProjectReference Include="..\Poudlard.Infrastructure\Poudlard.Infrastructure.csproj" />
   </ItemGroup>
 

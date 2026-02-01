@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Poudlard.API/Poudlard.API.csproj" />
+  <Project Path="Poudlard.Core/Poudlard.Core.csproj" Id="22186eac-d3f4-4e9a-bf1e-e1ab22ee020f" />
   <Project Path="Poudlard.Domain/Poudlard.Domain.csproj" />
   <Project Path="Poudlard.Infrastructure/Poudlard.Infrastructure.csproj" />
 </Solution>
